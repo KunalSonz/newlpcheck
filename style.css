@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  width: 100%;
+  height: 10vh;
+  border-bottom: 2px solid black;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+
+section a{
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+section h2{
+  padding: 0px 40px 0px 20px;
+}
+
+h1{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#fold1{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  font-size: 60px;
+  padding: 60px;
+  line-height: 60px;
+}
+
+.subHeader{
+  font-size: 30px;
+  padding: 20px 60px 20px 60px;
+  line-height: 40px;
+}
+
+.engLp{
+  padding: 20px 60px 20px 60px;    
+}
+
+.engLp h2{
+  border: 2px solid black;
+  width: 20%;
+  padding: 20px;
+  cursor: pointer;
+  
+}
+
+.engLp h2:hover{
+  color: white;
+  background-color: black;
+}
